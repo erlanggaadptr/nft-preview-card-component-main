@@ -93,12 +93,15 @@ main {
 }
 
 .card .card-txt h1 {
-  color: var(--white);
   font-size: 1.4rem;
+}
+
+.card .card-txt h1 a {
+  color: var(--white);
   transition: color 0.25s ease;
 }
 
-.card .card-txt h1:hover {
+.card .card-txt h1 a:hover {
   color: var(--cyan);
 }
 
@@ -108,7 +111,7 @@ main {
   justify-content: space-between;
 }
 
-.card .card-txt .nft-value #price {
+.card .card-txt .price {
   color: var(--cyan);
 }
 
