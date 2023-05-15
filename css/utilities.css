@@ -6,6 +6,7 @@
   --very-dark-blue-three: hsl(215, 32%, 27%);
   --white: hsl(0, 0%, 100%);
   --font-family: 'Outfit', sans-serif;
+  --font-size: 1.125rem;
 }
 
 * {
@@ -22,4 +23,12 @@
 .flex-column {
   display: flex;
   flex-direction: column;
+}
+
+.bold-text {
+  font-weight: 600;
+}
+
+.light-text {
+  font-weight: 300;
 }

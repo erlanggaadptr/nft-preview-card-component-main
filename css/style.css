@@ -12,28 +12,72 @@ main {
 .card {
   background: var(--very-dark-blue-two);
   color: var(--white);
-  width: 400px;
-  height: 600px;
+  width: 23rem;
+  height: 37.5rem;
   align-items: stretch;
   justify-content: space-between;
-  border-radius: 20px;
+  border-radius: 10px;
+  font-size: var(--font-size);
+  /* gap: 1rem; */
 }
 
 .card .card-img, 
 .card .card-txt {
-  padding: 2rem;
+  padding: 1.5rem;
 }
 
 .card .card-img {
-  height: 60%;
-}
-
-.card .card-txt {
-  height: 40%;
+  width: 100%;
+  height: 55%;
+  padding-bottom: 0;
 }
 
 .card .card-img img {
   width: 100%;
+  height: 100%;
   display: block;
-  border-radius: 20px;
+  border-radius: 10px;
+}
+
+.card .card-txt {
+  height: 45%;
+  color: var(--soft-blue);
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.card .card-txt h1 {
+  color: var(--white);
+  font-size: 1.4rem;
+}
+
+.card .card-txt .nft-value {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card .card-txt .nft-value #price {
+  color: var(--cyan);
+}
+
+.card .card-txt .line {
+  width: 100%;
+  border-bottom: 1px solid var(--very-dark-blue-three);
+}
+
+.card .card-txt .author {
+  align-items: center;
+  justify-content: flex-start;
+  height: 2rem;
+  gap: 1rem;
+}
+
+.card .card-txt .author img {
+  height: 100%;
+  border: 1px solid var(--white);
+  border-radius: 50%;
+}
+
+.card .card-txt .author .author-name {
+  color: var(--white);
 }
