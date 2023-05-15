@@ -1,0 +1,39 @@
+body {
+  font-family: var(--font-family);
+}
+
+main {
+  background: var(--very-dark-blue-one);
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  background: var(--very-dark-blue-two);
+  color: var(--white);
+  width: 400px;
+  height: 600px;
+  align-items: stretch;
+  justify-content: space-between;
+  border-radius: 20px;
+}
+
+.card .card-img, 
+.card .card-txt {
+  padding: 2rem;
+}
+
+.card .card-img {
+  height: 60%;
+}
+
+.card .card-txt {
+  height: 40%;
+}
+
+.card .card-img img {
+  width: 100%;
+  display: block;
+  border-radius: 20px;
+}
